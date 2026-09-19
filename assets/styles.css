@@ -454,3 +454,10 @@ blockquote {
     outline: 2px solid #a5df1f;
     outline-offset: 3px;
 }
+
+a{
+    color: #1fa1df;
+    text-decoration: none;
+    font-weight: bold;
+
+}
