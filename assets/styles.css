@@ -422,3 +422,35 @@ blockquote {
         width: 100%;
     }
 }
+
+.back-home {
+    display: inline-flex;
+    align-items: center;
+
+    margin: 20px;
+    padding: 10px 14px;
+
+    color: #ffffff;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    transition:
+        color 120ms ease,
+        background-color 120ms ease;
+}
+
+.back-home:hover {
+    color: #a5df1f;
+    background: #17181c;
+}
+
+.back-home:focus-visible {
+    outline: 2px solid #a5df1f;
+    outline-offset: 3px;
+}
