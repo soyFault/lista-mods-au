@@ -461,3 +461,44 @@ a{
     font-weight: bold;
 
 }
+
+.tutorial-list {
+    margin: 24px 0 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.tutorial-list li {
+    position: relative;
+
+    margin-bottom: 12px;
+    padding-left: 32px;
+}
+
+.tutorial-list li::before {
+    content: "🧩";
+
+    position: absolute;
+    left: 0;
+    top: 0.1em;
+}
+
+.tutorial-list a {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition:
+        color 120ms ease,
+        transform 120ms ease;
+}
+
+.tutorial-list a:hover {
+    color: #a5df1f;
+}
+
+.tutorial-list a:focus-visible {
+    outline: 2px solid #a5df1f;
+    outline-offset: 3px;
+}
